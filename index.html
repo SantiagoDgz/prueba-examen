@@ -9,22 +9,25 @@
     <h1>Computer center</h1>
     <h2>Diseña y configura tu propia computadora personal de video juegos</h2>
 
-<form action="" id="gabinete">
-    <select name="" id="gabinetes-select">
+<form action="" id="computadora-form">
+    <h3>Gabinetes</h3>
+    <select name="gabinetes-select" id="gabinetes-select">
         <option value="minitorre">Minitorre $700</option>
         <option value="torre">Torre $1200</option>
         <option value="desktop">Desktop $550</option>
         <option value="gamer">Gamer $2500</option>
     </select>
 
-    <select name="" id="procesadores-select">
+    <h3>Procesadores</h3>
+    <select name="procesadores-select" id="procesadores-select">
         <option value="Celeron">Celeron $300</option>
         <option value="Intel i3">Intel i3 $500</option>
         <option value="Intel i5">Intel i5 $700</option>
         <option value="Intel i7">Intel i7 $1000</option>
     </select>
 
-    <select name="" id="disco-duro">
+    <h3>Almacenamiento</h3>
+    <select name="disco-duro" id="disco-duro">
         <option value="500GB">500GB $500</option>
         <option value="750GB">750GB $750</option>
         <option value="1TB">1TB $1000</option>
@@ -32,32 +35,56 @@
         <option value="500GB SSD">500GB SSD $1500</option>
     </select>
 
-    <select name="" id="ram-select">
-        <option value="">4GB $500</option>
-        <option value="">8GB $1000</option>
-        <option value="">16GB $1500</option>
+    <h3>Memoria RAM</h3>
+    <select name="ram-select" id="ram-select">
+        <option value="4gb">4GB $500</option>
+        <option value="8gb">8GB $1000</option>
+        <option value="16gb">16GB $1500</option>
     </select>
 
-    <select name="" id="monitor-select">
-        <option value="">17" $1000</option>
-        <option value="">19" $2000</option>
-        <option value="">21.5" $3000</option>
-        <option value="">24" $4000</option>
-        <option value="">27" $5000</option>
-        <option value="">32" $6000</option>
+    <h3>Monitores</h3>
+    <select name="monitor-select" id="monitor-select">
+        <option value="17-inch">17" $1000</option>
+        <option value="19-inch">19" $2000</option>
+        <option value="21.5-inch">21.5" $3000</option>
+        <option value="24-inch">24" $4000</option>
+        <option value="27-inch">27" $5000</option>
+        <option value="32-inch">32" $6000</option>
     </select>
 <hr>
+    <h3>Accesorios $500 c/u</h3>
     <div>
-        <label for="">Accesorios</label>
+        <label for="accesorios"></label>
 <hr>
-        <input type="checkbox">Teclado $500<br>
-        <input type="checkbox">Mouse $300<br>
-        <input type="checkbox">Audifonos $800<br>
-        <input type="checkbox">Webcam $700<br>
-        <input type="checkbox">Impresora $1500<br>
-        <input type="checkbox">
+        <input type="checkbox">Teclado<br>
+        <input type="checkbox">Mouse<br>
+        <input type="checkbox">Audifonos<br>
+        <input type="checkbox">Webcam<br>
+        <input type="checkbox">Impresora<br>
+        <input type="checkbox">Alfombrilla<br>
+        <input type="checkbox">Silla gamer<br>
+        <input type="checkbox">Luces RGB<br>
+        <input type="checkbox">Microfono<br>
+        <input type="checkbox">HDMI<br>
+        <input type="checkbox">Ventilador<br>
+        <input type="checkbox">Refrigeracion liquida<br>
+        <input type="checkbox">Soporte para monitor<br>
+        <input type="checkbox">Lector SD<br>
+        <input type="checkbox">Hub USB<br>
+        <input type="checkbox">Control xbox<br>
+        <input type="checkbox">Control playstation<br>
+        <input type="checkbox">Caja de herramientas<br>
+        <input type="checkbox">Bocinas<br>
+        <input type="checkbox">Cable Displayport<br>
+
+
+        
     </div>
 
+    <hr>
+    <div>
+        <button type="submit">Calcular precio total</button>
+    </div>
 </form>
 </body>
 </html>
