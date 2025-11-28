@@ -82,6 +82,66 @@ function calcular() {
             total = total + 6000;
         }   
 
-        
-        alert("Precio total: $" + total);
+        if (document.getElementById("teclado").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("mouse").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("audifonos").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("webcam").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("impresora").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("alfombrilla").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("silla-gamer").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("luces-rgb").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("microfono").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("hdmi").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("ventilador").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("refrigeracion-liquida").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("soporte-monitor").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("lector-sd").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("hub-usb").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("control-xbox").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("control-playstation").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("caja-herramientas").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("bocinas").checked){
+            total = total + 500;
+        }
+        if (document.getElementById("cable-displayport").checked){
+            total = total + 500;
+        }
+
+        document.getElementById("total").innerHTML = "Total: $" + total;
 }

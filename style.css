@@ -48,3 +48,14 @@ button{
 button:hover{
     background-color: #218838;
 }
+.total{
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    border: #222 2px solid;
+}
