@@ -17,10 +17,10 @@ function calcular() {
             total = total + 1200;
         }
          else if (gabinete == "desktop"){
-            total = total + 1200;
+            total = total + 550;
         }
          else if (gabinete == "gamer"){
-            total = total + 1200;
+            total = total + 2500;
         }
 
         if (procesador == "celeron"){
@@ -30,10 +30,10 @@ function calcular() {
                 total = total + 500;
             }
             else if (procesador == "intel-i5"){
-                total = total + 500;
+                total = total + 700;
             }
             else if (procesador == "intel-i7"){
-                total = total + 500;
+                total = total + 1000;
             }
 
     if (disco == "500GB"){
@@ -43,13 +43,13 @@ function calcular() {
             total = total + 750;
         }
         else if (disco == "1TB"){
-            total = total + 750;
+            total = total + 1000;
         }
         else if (disco == "250GB-SSD"){
-            total = total + 750;
+            total = total + 1200;
         }
         else if (disco == "500GB-SSD"){
-            total = total + 750;
+            total = total + 1500;
         }
 
     if (ram == "4gb"){
@@ -60,7 +60,7 @@ function calcular() {
             total = total + 1000;
         }
          else if (ram == "16gb"){
-            total = total + 1000;
+            total = total + 1500;
         }
 
     if (monitor == "17-inch"){
