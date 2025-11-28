@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Computer center</h1>
     <h2>Diseña y configura tu propia computadora personal de video juegos</h2>
 
+    <div id="formulario">
 <form action="" id="computadora-form">
     <h3>Gabinetes</h3>
     <select name="gabinetes-select" id="gabinetes-select">
@@ -82,10 +84,13 @@
 
     <hr>
     <div>
-        <button type="submit" onclick="calcular()">Calcular precio total</button>
+        <button type="button" onclick="calcular()">Calcular precio total</button>
     </div>
 </form>
+</div>
+    <h2 id="resultado"></h2>
 
+    <script src="script.js"></script>
 
 </body>
 </html>
